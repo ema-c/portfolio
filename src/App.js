@@ -1,12 +1,12 @@
+import { BrowserRouter as Router } from "react-router-dom";
+import Home from "./pages";
+import "./styles.css";
 
-import './index.css';
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <h1>S'up</h1>
-    </div>
+    <Router>
+      <Home />
+    </Router>
   );
 }
 
-export default App;
